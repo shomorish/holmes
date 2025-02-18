@@ -38,7 +38,9 @@
 			"extensions": [
 				"ms-azuretools.vscode-docker",
 				"golang.Go",
-				"oderwat.indent-rainbow"
+				"oderwat.indent-rainbow",
+				"yzhang.markdown-all-in-one",
+				"shd101wyy.markdown-preview-enhanced"
 			]
 		}
 	}

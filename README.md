@@ -2,6 +2,8 @@
 
 現在のディレクトリ内で、指定した文字列を含むファイルを検索して一覧表示する。
 
+<img src="./screenshot/screenshot.png" alt="screenshot" width="600">
+
 ## 使用方法
 
 検索したい文字列またはコマンドを入力する。
@@ -15,4 +17,6 @@
 
 ## ビルド方法
 
-> $ go build -o holmes.exe cmd/holmes/main.go
+```bash
+$ go build -o holmes cmd/holmes/main.go
+```
