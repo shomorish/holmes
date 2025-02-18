@@ -1,0 +1,9 @@
+Searches for files that contain a specified string and displays a list of those files.
+
+Usage: The string to search for or COMMAND
+
+Commands:
+  @c <VALUE>: Change directory. Specify a directory path as VALUE.
+  @p:         Display the current directory name.
+  @h:         Get help.
+  @q:         Quit the app.
