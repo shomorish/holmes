@@ -3,8 +3,8 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "go: build package for windows",
-			"command": "cd /app; GOOS=windows CC=x86_64-w64-mingw32-gcc CGO_ENABLED=1 go build -o fs.exe cmd/holmes/main.go",
+			"label": "go: build package",
+			"command": "cd /app; go build -o holmes cmd/holmes/main.go",
 			"problemMatcher": [
 				"$go"
 			],
@@ -14,6 +14,9 @@
 			"type": "shell",
 			"label": "go: run module",
 			"command": "cd /app; go run cmd/holmes/main.go",
+			"problemMatcher": [
+				"$go"
+			],
 		},
 		{
 			"label": "check variable",
